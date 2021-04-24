@@ -9,7 +9,7 @@ namespace Cadastro.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
-                @"Server=localhost;User Id=sa;Password=pl$150886;Database=DBChallengeDev;Integrated Security=True");
+                @"Server=localhost;User Id=sa;Password=123456789;Database=DBChallengeDev;Integrated Security=True");
         }
 
         public DbSet<Motorista> Motoristas { get; set; }
